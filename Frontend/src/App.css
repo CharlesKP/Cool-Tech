@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 49px;
+  color: rgb(44, 44, 44);
+}
+
+.logo {
+  width: 250px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jobs {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+  width: 70%;
+}
+
+.jobs td,
+.jobs th {
+  margin-left: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.jobs th.headerDescription {
+  width: 30%;
+}
+
+.jobs th.headerLocation {
+  width: 20%;
+}
+
+.jobs th.headerStatus {
+  width: 15%;
+}
+
+.jobs th.button {
+  width: 10%;
+}
+
+.jobs tr:nth-child(even) {
+  background-color: rgb(235, 229, 229);
+}
+
+.jobs tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.jobs tr:hover {
+  background-color: rgb(165, 199, 221);
+  cursor: default;
+  color: white;
+}
+
+.jobs tr:focus {
+  background-color: rgb(223, 71, 71);
+  color: white;
+}
+
+.manage:focus {
+  background-color: rgb(223, 71, 71);
+  color: white;
+}
+
+.user:focus {
+  background-color: rgb(223, 71, 71);
+  color: white;
+}
+
+.jobs th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.add {
+  margin-bottom: 40px;
+  background-color: #f6f7f8;
+  color: black;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.add input {
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(105, 105, 105);
+  border-radius: 5px;
+}
+.add select {
+  overflow: visible;
+  background-color: white;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  width: 160px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(105, 105, 105);
+  border-radius: 5px;
+}
+.add h3 {
+  color: rgb(59, 59, 59);
+  margin-left: 15px;
+}
+
+input {
+  margin-left: 15px;
+  border-radius: 2px;
+  border-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+select {
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 170px;
+  margin-left: 10px;
+}
+
+.selection {
+  padding: 40px;
+}
+.selection button {
+  margin: 30px;
+  margin-top: 0;
+}
+
+.loginForm button {
+  margin-left: 40px;
+}
+
+.greenButton {
+  background-color: #04aa6d;
+  padding: 8px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wideButton {
+  width: 80px;
+  margin-left: 15px;
+}
+
+#complete {
+  margin-top: 30px;
+}
+
+.loginWarning {
+  color: red;
+}
+
+.greeting {
+  color: white;
+}
+
+.notice {
+  color: white;
+}
